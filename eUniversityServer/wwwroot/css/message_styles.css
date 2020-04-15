@@ -1,0 +1,57 @@
+html{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #F4F8FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    max-width: 48rem;
+    min-width: 25rem;
+    width: 100%;
+    box-shadow: 0 0 7px 0.5px #CCC;
+}
+
+header{
+    background: #F5FCFF;
+    height: 7.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .logo{
+    height: 4.2rem;
+    margin: 1.6rem;
+}
+
+header h1{
+    color: #0568EB;
+    font-size: 2.4rem;
+}
+
+.message{
+    margin: 4rem 0;
+}
+
+.message .message-text{
+    color: #3AD29F;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.message .message-img{
+    width: 18.2rem;
+    margin: 4rem auto;
+}
+
+.message .message-text, .message .message-img{
+    display: block;
+    text-align: center;
+}

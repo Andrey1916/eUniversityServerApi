@@ -1,0 +1,24 @@
+# For detailed explanation of how these config files should be used and created please see the developer guide here:
+#  http://docs.amazonwebservices.com/AWSToolkitVS/latest/UserGuide/tkv-deployment-tool.html
+
+# Edit the parameter line below to set the path to the deployment archive or use
+#     /DDeploymentPackage=value
+# on the awsdeploy.exe command line for more flexibility.
+# DeploymentPackage = <-- path to web deployment archive -->
+
+# Profile name is used to look up AWS access key and secret key
+# from either the SDK credentials store, or the credentials file found at
+# <userhome-directroy>\.aws\credentials. Alternatively the access key and 
+# secret key can be set using the command line parameters /DAWSAccessKey and /DAWSSecretKey.
+AWSProfileName = SaintedPsycho
+Region = eu-central-1
+Template = ElasticBeanstalk
+UploadBucket = elasticbeanstalk-eu-central-1-781704722091
+
+Application.Name = eUniversity
+
+aws:elasticbeanstalk:healthreporting:system.SystemType = enhanced
+
+aws:elasticbeanstalk:xray.XRayEnabled = false
+
+Environment.Name = Euniversity-env

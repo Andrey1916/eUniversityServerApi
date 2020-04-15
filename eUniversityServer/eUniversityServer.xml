@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>eUniversityServer</name>
+    </assembly>
+    <members>
+        <member name="M:eUniversityServer.Controllers.AcademicDisciplinesController.Get">
+            <summary>
+            Get all Academic Disciplines
+            </summary>
+        </member>
+        <member name="M:eUniversityServer.Controllers.AcademicDisciplinesController.Get(System.Guid)">
+            <summary>
+            Get Academic Disciplines by id
+            </summary>
+        </member>
+        <member name="M:eUniversityServer.Controllers.AcademicDisciplinesController.Get(System.Int32,System.Int32)">
+            <summary>
+            Get users by pagination
+            </summary>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eUniversityServer.Controllers.AcademicDisciplinesController.Delete(System.Guid)">
+            <summary>
+            Delete user by Id
+            </summary>
+            <param name="id">User Id</param>
+            <returns></returns>
+        </member>
+        <member name="P:eUniversityServer.Utils.AppSettings.AccessTokenLifeTime">
+            <summary>
+            Life time in minutes
+            </summary>
+        </member>
+    </members>
+</doc>
